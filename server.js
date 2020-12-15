@@ -1,5 +1,5 @@
-const server = require('./lib/app');
+const app = require('./lib/app');
 
-server.listen(3000, () => {
+app.listen(3000, () => {
   console.log('Application started!');
 });
